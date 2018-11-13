@@ -14,11 +14,11 @@ document.getElementById('result').innerHTML = 'Hai ' + anni + ' anni. ' + 'Sei s
 } else if (anni >= 18 && anni < 65) {
 document.getElementById('result').innerHTML = 'Hai ' + anni + ' anni. ' + 'Non puoi usufruire di nessuno sconto. Pagherai ' + ris + ' euro.' ;
 } else if (Number.isNaN(anni)) {
-document.getElementById('result').innerHTML =  'Devi inserire i valori corretti.'
+document.getElementById('result').innerHTML = 'Devi inserire i valori corretti.'
 } else if (anni == 0) {
-document.getElementById('result').innerHTML =  'Devi inserire i valori corretti.'
+document.getElementById('result').innerHTML = 'Devi inserire i valori corretti.'
 }
 
 if (km == 0 || Number.isNaN(km)) {
-  document.getElementById('result').innerHTML =  'Devi inserire i valori corretti.'
+document.getElementById('result').innerHTML = 'Devi inserire i valori corretti.'
 }
