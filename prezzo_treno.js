@@ -24,3 +24,5 @@ if (anni < 18 && anni > 0) {
 if (km == 0 || Number.isNaN(km)) {
   document.getElementById('result').innerHTML = 'Devi inserire i valori corretti.'
 }
+
+// -------------------------------------------
